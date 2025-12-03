@@ -156,7 +156,7 @@ def parse_args():
 
     # Data
     parser.add_argument("--data", type=str,
-        default=r"C:\Users\sheha\OneDrive\Documents\GitHub\Enhancing-Bearing-Fault-Diagnosis-Across-Loads-Using-a-Lightweight-CNN-and-CORAL\Data")
+        default=r"C:\Users\sheha\OneDrive\Documents\CORAL-Enhanced Lightweight 1D-CNN for Cross-Load Bearing Fault Detection on the CWRU Dataset\Data")
     parser.add_argument("--source_load", type=int, default=0)
     parser.add_argument("--target_load", type=int, default=1)
 
@@ -327,4 +327,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
